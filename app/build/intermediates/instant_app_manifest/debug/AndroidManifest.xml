@@ -76,7 +76,6 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
-        android:name="com.newbee.lixiaomodel.MyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -85,14 +84,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation"
         android:usesCleartextTraffic="true" >
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
         <activity
-            android:name="com.nrmyw.launcher.MainLauncherActivity"
+            android:name="com.demo.DemoActivity"
             android:clearTaskOnLaunch="true"
             android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|screenLayout|smallestScreenSize"
             android:enabled="true"
@@ -125,47 +123,6 @@
                 <category android:name="android.intent.category.LAUNCHER_APP" />
             </intent-filter>
         </activity>
-        <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
-        <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
-        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" >
-            <intent-filter android:scheme="http" >
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="image/*" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
-        <!-- <activity android:name=".TestUpdateVersionActivity"/> -->
-        <!-- <activity android:name=".OpenGlTextActivity1"/> -->
-        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
-        <service android:name="com.lixiao.oss.service.OssService" />
-        <service android:name="com.newbee.lixiaomodel.service.DemoService" />
-
-        <receiver
-            android:name="com.newbee.lixiaomodel.CameraReceiver"
-            android:enabled="true" >
-            <intent-filter android:priority="2147483647" >
-                <action android:name="android.hardware.action.NEW_PICTURE" />
-
-                <data android:mimeType="image/*" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="com.lixiao.build.util.systemapp.broadcastreceiver.SystemAppReceiver"
-            android:enabled="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_ADDED" />
-                <action android:name="android.intent.action.PACKAGE_CHANGED" />
-                <action android:name="android.intent.action.PACKAGE_REMOVED" />
-                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
-                <action android:name="android.intent.action.PACKAGE_INSTALL" />
-
-                <data android:scheme="package" />
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
