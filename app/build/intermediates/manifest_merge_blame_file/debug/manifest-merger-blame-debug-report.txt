@@ -1,0 +1,352 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nrmyw.launcher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.usb.host" />
+11-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:4:5-61
+11-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:4:19-59
+12    <uses-feature android:name="android.hardware.camera" />
+12-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:5:5-60
+12-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:5:19-57
+13    <uses-feature android:name="android.hardware.camera.autofocus" />
+13-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:6:5-70
+13-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:6:19-67
+14
+15    <uses-permission android:name="android.hardware.usb.host" />
+15-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:7:5-65
+15-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:7:22-62
+16
+17    <uses-feature
+17-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:8:5-10:35
+18        android:name="android.hardware.bluetooth_le"
+18-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:9:9-53
+19        android:required="true" />
+19-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:10:9-32
+20    <!-- b -->
+21    <uses-permission android:name="android.permission.ACCESS_SUPERlandscape" />
+21-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:12:5-80
+21-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:12:22-77
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:13:5-76
+22-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:13:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:14:5-79
+23-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:14:22-76
+24    <!-- c -->
+25    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+25-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:16:5-79
+25-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:16:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:17:5-81
+26-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:17:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:18:5-79
+27-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:18:22-76
+28    <uses-permission android:name="android.permission.BLUETOOTH" />
+28-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:19:5-68
+28-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:19:22-65
+29    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+29-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:20:5-74
+29-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:20:22-71
+30    <!-- d -->
+31    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+31-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:22:5-23:47
+31-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:22:22-76
+32    <!-- g -->
+33    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+33-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:25:5-79
+33-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:25:22-76
+34    <!-- r -->
+35    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+35-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:27:5-76
+35-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:27:22-73
+36    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+36-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:28:5-29:47
+36-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:28:22-76
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:30:5-65
+37-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:30:22-62
+38    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+38-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:31:5-32:47
+38-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:31:22-77
+39    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+39-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:33:5-75
+39-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:33:22-72
+40    <uses-permission android:name="android.permission.GET_TASKS" />
+40-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:34:5-68
+40-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:34:22-65
+41    <!-- i -->
+42    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+42-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:36:5-71
+42-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:36:22-68
+43    <!-- 静默安装 -->
+44    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+44-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:38:5-71
+44-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:38:22-68
+45    <!-- m -->
+46    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+46-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:40:5-41:47
+46-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:40:22-73
+47    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+47-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:42:5-80
+47-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:42:22-77
+48    <!-- w -->
+49    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+49-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:44:5-75
+49-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:44:22-72
+50    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+50-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:45:5-81
+50-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:45:22-78
+51    <uses-permission android:name="android.permission.INTERNET" />
+51-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:46:5-67
+51-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:46:22-64
+52    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+52-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:47:5-48:47
+52-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:47:22-72
+53    <!-- s -->
+54    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+54-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:50:5-51:47
+54-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:50:22-81
+55    <!-- 在 屏幕最顶部显示addview -->
+56    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+56-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:53:5-80
+56-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:53:22-77
+57    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+57-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:54:5-81
+57-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:54:22-78
+58    <!-- v -->
+59    <uses-permission android:name="android.permission.WAKE_LOCK" />
+59-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:56:5-68
+59-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:56:22-65
+60    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+60-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:57:5-58:47
+60-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:57:22-70
+61    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+61-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:59:5-60:47
+61-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:59:22-77
+62    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+62-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:62:5-63:53
+62-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:62:22-74
+63    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+63-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:64:5-78
+63-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:64:22-75
+64    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+64-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:65:5-80
+64-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:65:22-77
+65    <uses-permission android:name="android.permission.SERIAL_PORT" />
+65-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:66:5-67:47
+65-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:66:22-67
+66    <uses-permission android:name="android.permission.RECOVERY" />
+66-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:68:5-69:47
+66-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:68:22-64
+67
+68    <!-- Required -->
+69    <uses-permission android:name="android.permission.VIBRATE" />
+69-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:72:5-66
+69-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:72:22-63
+70    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+70-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:45:5-81
+70-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:45:22-78
+71    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+71-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:64:5-78
+71-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:64:22-75
+72    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+72-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:75:5-76
+72-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:75:22-74
+73
+74    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+75    <uses-permission android:name="android.permission.GET_TASKS" />
+75-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:34:5-68
+75-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:34:22-65
+76
+77    <application
+77-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:81:5-173:19
+78        android:name="com.newbee.lixiaomodel.MyApplication"
+78-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:88:9-60
+79        android:allowBackup="true"
+79-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:82:9-35
+80        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+80-->[androidx.core:core:1.3.0] C:\Users\NINGMEI\.gradle\caches\transforms-2\files-2.1\c8def25189bb5132a04fb63fb1c46fc9\core-1.3.0\AndroidManifest.xml:24:18-86
+81        android:debuggable="true"
+82        android:icon="@mipmap/ic_launcher"
+82-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:83:9-43
+83        android:label="@string/app_name"
+83-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:84:9-41
+84        android:roundIcon="@mipmap/ic_launcher_round"
+84-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:85:9-54
+85        android:supportsRtl="true"
+85-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:86:9-35
+86        android:testOnly="true"
+87        android:theme="@style/NewBee.BaseImmersiveThemeTransparentNavigation"
+87-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:89:9-78
+88        android:usesCleartextTraffic="true" >
+88-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:87:9-44
+89        <uses-library
+89-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:90:9-92:40
+90            android:name="org.apache.http.legacy"
+90-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:91:13-50
+91            android:required="false" />
+91-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:92:13-37
+92
+93        <activity
+93-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:97:9-127:20
+94            android:name="com.nrmyw.launcher.MainLauncherActivity"
+94-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:98:13-49
+95            android:clearTaskOnLaunch="true"
+95-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:100:13-45
+96            android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|screenLayout|smallestScreenSize"
+96-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:104:13-134
+97            android:enabled="true"
+97-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:108:13-35
+98            android:launchMode="singleTask"
+98-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:99:13-44
+99            android:resizeableActivity="true"
+99-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:105:13-46
+100            android:resumeWhilePausing="true"
+100-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:106:13-46
+101            android:screenOrientation="landscape"
+101-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:103:13-50
+102            android:stateNotNeeded="true"
+102-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:101:13-42
+103            android:taskAffinity=""
+103-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:107:13-36
+104            android:windowSoftInputMode="adjustPan" >
+104-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:102:13-52
+105            <intent-filter>
+105-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:109:13-126:29
+106
+107                <!-- 自主添加调式 -->
+108
+109                <action android:name="android.intent.action.VIEW" />
+109-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:112:17-68
+109-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:112:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:113:17-76
+111-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:113:27-74
+112                <!-- 自主添加调式 -->
+113                <!-- <action android:name="android.intent.action.MAIN" /> -->
+114                <!-- <action android:name="com.cultraview.launcher.MAIN" /> -->
+115                <!-- <action android:name="android.intent.action.VIEW" /> -->
+116                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+117                <!-- <category android:name="android.intent.category.HOME" /> -->
+118                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+119                <action android:name="android.intent.action.MAIN" />
+119-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:121:17-69
+119-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:121:25-66
+120
+121                <category android:name="android.intent.category.HOME" />
+121-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:122:17-73
+121-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:122:27-70
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:123:17-76
+122-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:123:27-73
+123                <category android:name="android.intent.category.MONKEY" />
+123-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:124:17-74
+123-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:124:27-72
+124                <category android:name="android.intent.category.LAUNCHER_APP" />
+124-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:125:17-81
+124-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:125:27-78
+125            </intent-filter>
+126        </activity>
+127        <activity android:name="com.newbee.lixiaomodel.UserPrivateAgreemeetActivity" />
+127-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:130:9-87
+127-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:130:19-85
+128        <activity android:name="com.newbee.lixiaomodel.TestDownActivity" />
+128-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:131:9-75
+128-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:131:19-73
+129        <activity android:name="com.newbee.lixiaomodel.TestUploadActivity" >
+129-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:132:9-141:20
+129-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:132:19-75
+130            <intent-filter android:scheme="http" >
+130-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:133:13-138:29
+130-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:133:28-49
+131                <action android:name="android.intent.action.VIEW" />
+131-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:112:17-68
+131-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:112:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:123:17-76
+133-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:123:27-73
+134
+135                <data android:mimeType="image/*" />
+135-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:137:17-52
+135-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:137:23-49
+136            </intent-filter>
+137        </activity>
+138        <activity android:name="com.newbee.lixiaomodel.TestMyRadioGroupActivity" />
+138-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:142:9-83
+138-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:142:19-81
+139        <!-- <activity android:name=".TestUpdateVersionActivity"/> -->
+140        <!-- <activity android:name=".OpenGlTextActivity1"/> -->
+141        <service android:name="com.lixiao.down.service.XiaoGeDownLoaderService" />
+141-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:145:9-82
+141-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:145:18-80
+142        <service android:name="com.lixiao.oss.service.OssService" />
+142-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:146:9-68
+142-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:146:18-66
+143        <service android:name="com.newbee.lixiaomodel.service.DemoService" />
+143-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:147:9-77
+143-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:147:18-75
+144
+145        <receiver
+145-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:149:9-158:20
+146            android:name="com.newbee.lixiaomodel.CameraReceiver"
+146-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:150:13-65
+147            android:enabled="true" >
+147-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:151:13-35
+148            <intent-filter android:priority="2147483647" >
+148-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:152:13-157:29
+148-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:152:28-57
+149                <action android:name="android.hardware.action.NEW_PICTURE" />
+149-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:153:17-78
+149-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:153:25-75
+150
+151                <data android:mimeType="image/*" />
+151-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:137:17-52
+151-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:137:23-49
+152            </intent-filter>
+153        </receiver>
+154        <receiver
+154-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:160:9-172:20
+155            android:name="com.lixiao.build.util.systemapp.broadcastreceiver.SystemAppReceiver"
+155-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:161:13-95
+156            android:enabled="true" >
+156-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:162:13-35
+157            <intent-filter>
+157-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:163:13-171:29
+158                <action android:name="android.intent.action.PACKAGE_ADDED" />
+158-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:164:17-85
+158-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:164:25-75
+159                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+159-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:165:17-87
+159-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:165:25-77
+160                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+160-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:166:17-87
+160-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:166:25-77
+161                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+161-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:167:17-88
+161-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:167:25-78
+162                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+162-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:168:17-89
+162-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:168:25-79
+163                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+163-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:169:17-87
+163-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:169:25-77
+164
+165                <data android:scheme="package" />
+165-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:137:17-52
+165-->G:\asworkspace\lixiao_lib\netmodel\app\src\main\AndroidManifest.xml:170:23-47
+166            </intent-filter>
+167        </receiver>
+168    </application>
+169
+170</manifest>
