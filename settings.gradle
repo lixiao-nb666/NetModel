@@ -1,4 +1,4 @@
-rootProject.name='lixiaomodel'
+rootProject.name='netmodel'
 include ':app'
 include ':developmenttool'
-include ':mylibrary'
+
